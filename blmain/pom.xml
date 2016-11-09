@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.bl</groupId>
+    <artifactId>blmain</artifactId>
+    <packaging>pom</packaging>
+    <version>${bl.blmain.version}</version>
+    <name>blmain</name>
+
+    <properties>
+
+        <bl.blmain.version>0.0.1</bl.blmain.version>
+    </properties>
+
+
+    <url>http://www.blifters.cc</url>
+
+
+    <modules>
+        <module>blmain-api</module>
+        <module>blmain-parent</module>
+        <module>blmain-common</module>
+        <module>blmain-service</module>
+        <module>blmain-manager</module>
+        <module>blmain-task</module>
+        <module>blmain-dao</module>
+    </modules>
+</project>

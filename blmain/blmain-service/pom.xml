@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.bl</groupId>
+        <artifactId>blmain-parent</artifactId>
+        <version>${bl.blmain.version}</version>
+        <relativePath>../blmain-parent</relativePath>
+    </parent>
+
+    <artifactId>blmain-service</artifactId>
+    <name>blmain-service</name>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.bl</groupId>
+            <artifactId>blmain-common</artifactId>
+            <version>${bl.blmain.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bl</groupId>
+            <artifactId>blmain-dao</artifactId>
+            <version>${bl.blmain.version}</version>
+        </dependency>
+
+        <!-- testing begin -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+        <!-- testing end -->
+
+    </dependencies>
+
+</project>
