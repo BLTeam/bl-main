@@ -52,13 +52,16 @@
         <servlet.api.version>3.1.0</servlet.api.version>
         <jstl.version>1.2</jstl.version>
         <!-- httpclient -->
-        <httpclient.version>4.3.3</httpclient.version>
+        <httpclient.version>4.4.1</httpclient.version>
         <!-- json -->
         <jackson.version>1.9.4</jackson.version>
         <jackson.core.version>2.6.2</jackson.core.version>
         <fastjson.version>1.2.7</fastjson.version>
         <!-- test -->
         <junit.version>4.10</junit.version>
+
+        <!-- crawler -->
+        <crawler.version>4.2</crawler.version>
 
     </properties>
 
@@ -302,6 +305,14 @@
                 <version>${junit.version}</version>
             </dependency>
             <!-- testing end -->
+
+            <!-- crawler begin -->
+            <dependency>
+                <groupId>edu.uci.ics</groupId>
+                <artifactId>crawler4j</artifactId>
+                <version>4.2</version>
+            </dependency>
+            <!-- crawler end -->
 
         </dependencies>
     </dependencyManagement>

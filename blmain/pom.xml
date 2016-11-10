@@ -26,5 +26,6 @@
         <module>blmain-manager</module>
         <module>blmain-task</module>
         <module>blmain-dao</module>
+        <module>blmain-spider</module>
     </modules>
 </project>
